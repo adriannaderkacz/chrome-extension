@@ -30,7 +30,7 @@ TBA
 ## Credits
 **Project Idea:** [Scrimba Frontend Developer Path](https://scrimba.com/learn/frontend).
 
-**Color scheme:** [Coolors](https://coolors.co/)
+**Color Scheme:** [Coolors](https://coolors.co/)
 
 **Icon:** [Canva](https://www.canva.com/)
 
