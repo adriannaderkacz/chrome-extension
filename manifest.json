@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "WishListly",
+    "description": "List your wishes effortlessly with WishListly! Save your favorite links and ideas all in one place.",
+    "action": {
+        "default_popup": "src/index.html",
+        "default_icon": "public/icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
