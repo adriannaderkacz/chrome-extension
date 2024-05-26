@@ -1,6 +1,6 @@
 # WishListly - a chrome extension
 
-WishListly is a lightweight and intuitive Chrome extension designed to help you capture and manage your ideas and links efficiently. Whether it's an interesting article, a useful tool, or a brilliant idea, WishListly keeps everything organized in one place.
+WishListly is a lightweight and intuitive Chrome extension designed to help you capture and manage your ideas and links efficiently. Whether it's an interesting article, an item you want to purchase, or a brilliant idea, WishListly keeps everything organized in one place.
 
 ## Table of Contents
 - [Features](#features)
@@ -14,6 +14,7 @@ WishListly is a lightweight and intuitive Chrome extension designed to help you 
 - **List a Wish**: Add your personal wishes and ideas directly into the extension.
 - **Save Tab**: Save the current browser tab URL to your wish list for easy access later.
 - **Delete All**: Clear your entire wish list with a single button.
+- **Tagging**: Add tags to your wishes for better organization and filtering.
 
 ## Design and Style
 - **Simple and Intuitive**: User-friendly interface that is easy to navigate.

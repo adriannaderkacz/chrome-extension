@@ -1,45 +1,69 @@
 body {
     margin: 0;
     padding: 10px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     min-width: 400px;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #0D47A1;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #192734;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+    /* border-bottom: 0.5px solid #192734; */
 }
 
 input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #880D1E;
+    border: 1px solid #0D47A1;
     border-radius: 10px;
     margin-bottom: 4px;
 }
 
-button {
-    background: #880D1E;
-    color: #fff;
-    padding: 10px 20px;
-    border: 1px solid #880D1E;
-    border-radius: 10px;
-    font-weight: bold;
+input::placeholder {
+    font-family: "Raleway", sans-serif;
+    color: #192734;
 }
 
-button:hover {
-    background: #F49CBB;
-    color: #880D1E;
-    border: 1px solid #F49CBB;
+button {
+    background: #0D47A1;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #0D47A1;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+button:hover,
+#delete-btn:hover {
+    background: #1565C0;
+    color: #fff;
+    border: 1px solid #1565C0;
     cursor: pointer;
 }
 
 #delete-btn {
-    background: #CBEEF3;
-    border: 1px solid #CBEEF3;
+    background: #E3F2FD;
+    border: 1px solid #E3F2FD;
     color: #192734;
-}
-
-#delete-btn:hover {
-    background: #2FB5C6;
-    color: #fff;
-    border: 1px solid #2FB5C6;
 }
 
 ul {
@@ -47,6 +71,7 @@ ul {
     list-style: none;
     padding-left: 0;
     color: #192734;
+    font-size: 0.9rem;
 }
 
 li {
@@ -54,5 +79,26 @@ li {
 }
 
 a {
-    color: #880D1E;
+    color: #90CAF9;
+}
+
+.fa-regular.fa-trash,
+.fa-regular.fa-circle-plus,
+.delete-icon {
+    cursor: pointer;
+}
+
+.tag {
+    background-color: #90CAF9; 
+    color: white;
+    padding: 2px 6px;
+    margin-left: 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    display: inline-flex;
+    align-items: center;
+}
+
+.tag i {
+    margin: 0 4px;
 }
