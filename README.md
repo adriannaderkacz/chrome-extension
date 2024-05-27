@@ -26,7 +26,9 @@ WishListly is a lightweight and intuitive Chrome extension designed to help you 
 
 ## Usage
 
-TBA
+![Image](./src/assets/images/one.png)
+![Image](./src/assets/images/two.png)
+![Image](./src/assets/images/three.png)
 
 ## Credits
 **Project Idea:** [Scrimba Frontend Developer Path](https://scrimba.com/learn/frontend).
